@@ -278,9 +278,9 @@ body {
     transition: all .5s ease;
 }
 
-.section .a:hover .h4{
+/* .section .a:hover .h4{
     opacity: 1;
-}
+} */
 
 .projects .h2{
     margin: 0 0 1em;
