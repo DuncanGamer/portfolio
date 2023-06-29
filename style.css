@@ -162,7 +162,7 @@ body {
 
 .main {
     background:rgba(211, 211, 211, 0.713);
-    margin:0 0 1em ;
+    /* margin:0 0 1em ; */
     text-align: center;
     z-index: 2;
 
@@ -297,32 +297,39 @@ body {
     font-size: 1.5em;
     text-align: left ;
 }
-.about .rrss {
+.contact .rrss {
     width: 100%;
     /* background : blueviolet; */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+ 
 }
-.about .li {
+.contact .li {
     margin:0 1em;
+    margin-bottom: 2em;
   
 }
-.about .ul {
-}
-.about .a {
-}
-.about .svg {
+
+.contact .svg {
     width: 3em;
     height: 3em;
+   
+    
 
+}
+.contact .h2{
+    margin: 0 0 1em;
+    font-family: (var(--tipo-principal));
+    font-weight: 400;
+    font-size: 5em;
 }
 
 .footer{
     background: rosybrown;
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 2em;
 }
 .footer .span{}
 
